@@ -1,0 +1,58 @@
+.navbar {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--light-bg);
+    width: 70%;
+    margin: auto;
+    border-radius: 6px;
+    z-index: 999;
+}
+.link {
+    color: white;
+    transition: 0.7s all;
+    margin :5px;
+}
+.link:hover {
+    color: var(--main-color);
+    cursor: pointer;
+}
+.navbar a {
+    transition: var(--transition);
+    ;
+    font-weight: bolds;
+}
+.navbar button {
+    transition: var(--transition);
+    ;
+    font-weight: bolds;
+    background: none;
+    border: none;
+}
+.navbar a:hover {
+    transform: translateY(-5px);
+}
+.navbar button:hover {
+    transform: translateY(-5px);
+}
+
+.navbar span,
+.navbar i,
+.navbar button {
+    color: var(--font-color);   
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.navbar span:hover,
+.navbar i:hover,
+.navbar button:hover {
+    transform: translateY(-5px);
+    color: var(--main-color);
+}
+
+.navbar a:hover,
+.navbar .active {
+    color: var(--main-color) !important;
+}

@@ -1,0 +1,25 @@
+.profilephoto img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translateY(45px);
+}
+.cover{
+    height: 40px;
+}
+.Overlay{
+    padding: 20 20px;
+    min-height:100vh ;
+    /* background-color: #1B2430; */
+    background-color: #1B2430;
+
+}
+.Rod{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    z-index: 1;
+}
+.Rod2{
+    border-radius: 30px;
+    transform: translateY(-40px);
+}

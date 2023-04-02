@@ -1,0 +1,13 @@
+/* start footer  */
+.footer span {
+    color: var(--main-color);
+}
+
+.footer-social a {
+    transition: .7s;
+    color: var(--font-color);
+}
+
+.footer-social a:hover{
+    color: var(--main-color);
+}
