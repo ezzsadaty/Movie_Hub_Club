@@ -34,6 +34,7 @@ function CommentForm({ postId, onSubmit }) {
         event.preventDefault();
         const url =   `http://127.0.0.1:8000/api/user/${userid}/post/${postId}/comments/create/`;
         const data = { content ,post: postId, user :userid};
+        console.log(userid)
         const headers = {
             "Content-Type": "application/json",
             Authorization: `Bearer ${localStorage.getItem("access_token")}`,

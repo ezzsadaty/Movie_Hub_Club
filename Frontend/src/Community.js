@@ -65,6 +65,7 @@ function Community() {
         try {
             await axios.delete(`http://127.0.0.1:8000/api/user/${userid}/post/${postId}/delete/`);
             console.log("Post deleted successfully");
+            window.location.reload(true);
         } catch (error) {
             console.error(error);
         }
